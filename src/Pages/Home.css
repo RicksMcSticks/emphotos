@@ -1,0 +1,82 @@
+.main-home h1 {
+color: aqua;
+}
+.main-home {
+    height: 2000px;
+}
+
+.hot-pics {
+    background-color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+.photo-loop {
+    flex-direction: row;
+    position: relative;
+    overflow: hidden;
+    background: black;
+    padding-bottom: 300px;
+    padding-top: 25px;
+}
+
+.Curls {
+    position: absolute;
+    width: 200px;
+    left: -1000px;
+    animation:move 50s linear 0s infinite;
+    animation-iteration-count: infinite;
+}
+
+.Bros {
+    position: absolute;
+    width: 200px;
+    left: -1000px;
+    animation:move 50s linear 8s infinite;
+    animation-iteration-count: infinite;
+}
+/* .Cutie {
+    position: relative;
+    width: 200px;
+    left: -1000px;
+    animation:move 50s linear 9s infinite;
+    animation-iteration-count: infinite;
+} */
+.Flex {
+    position: absolute;
+    width: 200px;
+    left: -1000px;
+    animation:move 50s linear 16s infinite;
+    animation-iteration-count: infinite;
+}
+.Kitty {
+    position: absolute;
+    width: 200px;
+    left: -1000px;
+    animation:move 50s linear 24s infinite;
+    animation-iteration-count: infinite;
+}
+.Man {
+    position: absolute;
+    width: 200px;
+    left: -1000px;
+    animation:move 50s linear 32s infinite;
+    animation-iteration-count: infinite;
+}
+.Tri {
+    position: absolute;
+    width: 200px;
+    height: 265px;
+    left: -1000px;
+    animation:move 50s linear 40s infinite;
+    animation-iteration-count: infinite;
+}
+
+/* .loop-tile {
+    padding: 800px;
+} */
+
+
+@keyframes move {
+    from {left: -225px;}
+    to {left: 100%;}
+}

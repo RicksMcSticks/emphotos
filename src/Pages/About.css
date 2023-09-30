@@ -1,0 +1,30 @@
+.about-container {
+    color: aqua;
+
+}
+.main-about {
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    height: 1200px;
+}
+
+.emm {
+    width: 300px;
+    padding-top: 20px;
+    /* display: flex; */
+    /* align-items: center; */
+    /* align-content: center; */
+}
+.pp {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+    width: 600px;
+}
+
+.hh {
+    flex-direction: column;
+    display: flex;
+    text-align: center;
+}
